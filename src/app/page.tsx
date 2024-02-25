@@ -22,7 +22,7 @@ export default function Home() {
           &quot;Sometimes you gotta close a door to open a window.&quot;
         </div>
       </div>
-      <div className="bg-black-100 flex justify-start pl-[min(5vw)] pr-[min(20vw)] pt-[min(12vw)]">
+      <div className="bg-black-100 flex justify-start pl-[min(5vw)] pr-[min(30vw)] pt-[min(12vw)]">
         <Image
           src={"/blackTShirts.jpeg"}
           alt="blackTShirts"
@@ -31,7 +31,7 @@ export default function Home() {
           className="grayscale duration-1000 hover:grayscale-0"
         />
       </div>
-      <div className="text-white-200/90 bg-black-100 flex flex-col justify-center pl-[min(5vw)] pr-[min(8vw)] pt-[min(4vw)] text-[2vw] font-thin">
+      <div className="text-white-200/90 bg-black-100 flex flex-col justify-center pl-[min(5vw)] pr-[min(10vw)] pt-[min(4vw)] text-[2vw] font-thin">
         <div>
           My favorite color is black cuz it can&apos;t be stained with any color
           and it can paint out any color.
@@ -76,7 +76,7 @@ export default function Home() {
           height={1700}
         />
       </div>
-      <div className="bg-black-100 text-white-200/90 -mt-[min(7vw)] flex flex-col justify-start px-[min(4vw)] pb-[min(10vw)] text-[14vw]">
+      <div className="bg-black-100 text-white-200/90 -mt-[min(7vw)] flex flex-col justify-start px-[min(4vw)] pb-[min(20vw)] text-[14vw]">
         Structure.
         <div className="flex justify-between pl-[min(5vw)] pr-[min(2vw)] pt-[min(2vw)] text-[2vw] font-thin">
           <div>
