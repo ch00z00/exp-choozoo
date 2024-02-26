@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -88,6 +89,30 @@ export default function Home() {
             to create a beautiful organizational structure.
           </div>
         </div>
+      </div>
+      <hr className="text-white-200/70 px-[min(10vw)]" />
+      <div className="bg-black-100 text-white-200 flex justify-between pl-[min(4vw)] pt-[min(2vw)]">
+        <div className="flex flex-col">
+          <div className="text-[2.5vw]">Follow me</div>
+          <Link
+            href="https://www.instagram.com/sslleeeekk?utm_source=qr"
+            target="_blank"
+            className="animate-pulse pt-[min(0.5vw)] text-[1.8vw] font-thin tracking-wider underline-offset-4 hover:underline"
+          >
+            Instagram
+          </Link>
+          <Link
+            href="https://github.com/ch00z00"
+            target="_blank"
+            className="animate-pulse text-[1.8vw] font-thin tracking-wider underline-offset-4 hover:underline"
+          >
+            GitHub
+          </Link>
+          <div className="text-white-200/80 mt-[18vw] px-[1vw] text-sm font-light">
+            @2024 YUSUKE SEKI
+          </div>
+        </div>
+        <div className="pt-[min(6vw)] text-[min(20vw)]">See ya!</div>
       </div>
     </main>
   );
