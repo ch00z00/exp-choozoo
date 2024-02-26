@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           &quot;Sometimes you gotta close a door to open a window.&quot;
         </div>
       </div>
-      <div className="bg-black-100 flex justify-start pl-[min(5vw)] pr-[min(20vw)] pt-[min(12vw)]">
+      <div className="bg-black-100 flex justify-start pl-[min(5vw)] pr-[min(30vw)] pt-[min(12vw)]">
         <Image
           src={"/blackTShirts.jpeg"}
           alt="blackTShirts"
@@ -31,7 +32,7 @@ export default function Home() {
           className="grayscale duration-1000 hover:grayscale-0"
         />
       </div>
-      <div className="text-white-200/90 bg-black-100 flex flex-col justify-center pl-[min(5vw)] pr-[min(8vw)] pt-[min(4vw)] text-[2vw] font-thin">
+      <div className="text-white-200/90 bg-black-100 flex flex-col justify-center pl-[min(5vw)] pr-[min(10vw)] pt-[min(4vw)] text-[2vw] font-thin">
         <div>
           My favorite color is black cuz it can&apos;t be stained with any color
           and it can paint out any color.
@@ -76,7 +77,7 @@ export default function Home() {
           height={1700}
         />
       </div>
-      <div className="bg-black-100 text-white-200/90 -mt-[min(7vw)] flex flex-col justify-start px-[min(4vw)] pb-[min(10vw)] text-[14vw]">
+      <div className="bg-black-100 text-white-200/90 -mt-[min(7vw)] flex flex-col justify-start px-[min(4vw)] pb-[min(20vw)] text-[14vw]">
         Structure.
         <div className="flex justify-between pl-[min(5vw)] pr-[min(2vw)] pt-[min(2vw)] text-[2vw] font-thin">
           <div>
@@ -88,6 +89,30 @@ export default function Home() {
             to create a beautiful organizational structure.
           </div>
         </div>
+      </div>
+      <hr className="text-white-200/70 px-[min(10vw)]" />
+      <div className="bg-black-100 text-white-200 flex justify-between pl-[min(4vw)] pt-[min(2vw)]">
+        <div className="flex flex-col">
+          <div className="text-[2.5vw]">Follow me</div>
+          <Link
+            href="https://www.instagram.com/sslleeeekk?utm_source=qr"
+            target="_blank"
+            className="animate-pulse pt-[min(0.5vw)] text-[1.8vw] font-thin tracking-wider underline-offset-4 hover:underline"
+          >
+            Instagram
+          </Link>
+          <Link
+            href="https://github.com/ch00z00"
+            target="_blank"
+            className="animate-pulse text-[1.8vw] font-thin tracking-wider underline-offset-4 hover:underline"
+          >
+            GitHub
+          </Link>
+          <div className="text-white-200/80 mt-[18vw] px-[1vw] text-sm font-light">
+            @2024 YUSUKE SEKI
+          </div>
+        </div>
+        <div className="pt-[min(6vw)] text-[min(20vw)]">See ya!</div>
       </div>
     </main>
   );
