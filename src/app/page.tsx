@@ -19,7 +19,7 @@ export default function Home() {
         />
       </div>
       <div className="bg-black-100 flex justify-center py-[min(8vw)] text-[3vw]">
-        <div className="text-white-200/60 hover:text-white-200 px-[min(2vw)] text-center font-thin duration-700">
+        <div className="text-white-200/60 hover:text-white-200 px-[min(2vw)] text-center font-thin duration-700 hover:-my-[0.37vw] hover:text-[3.5vw]">
           &quot;Sometimes you gotta close a door to open a window.&quot;
         </div>
       </div>
